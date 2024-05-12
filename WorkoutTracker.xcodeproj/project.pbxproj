@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		980B860F2BF144D500FF4B0B /* WorkoutListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B860E2BF144D500FF4B0B /* WorkoutListRow.swift */; };
 		9888A3442BED46AD0086DAEF /* WorkoutTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9888A3432BED46AD0086DAEF /* WorkoutTrackerApp.swift */; };
 		9888A3462BED46AD0086DAEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9888A3452BED46AD0086DAEF /* ContentView.swift */; };
 		9888A3482BED46AE0086DAEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9888A3472BED46AE0086DAEF /* Assets.xcassets */; };
 		9888A34B2BED46AE0086DAEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9888A34A2BED46AE0086DAEF /* Preview Assets.xcassets */; };
+		9888A3522BED47350086DAEF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9888A3512BED47350086DAEF /* HomeView.swift */; };
+		9888A3542BED49000086DAEF /* MainListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9888A3532BED49000086DAEF /* MainListRow.swift */; };
+		9888A3562BED54B00086DAEF /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9888A3552BED54B00086DAEF /* Data.swift */; };
+		9888A3592BED5DC30086DAEF /* WorkoutList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9888A3582BED5DC30086DAEF /* WorkoutList.swift */; };
+		9888A35B2BED5DD40086DAEF /* WorkoutDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9888A35A2BED5DD40086DAEF /* WorkoutDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		980B860E2BF144D500FF4B0B /* WorkoutListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListRow.swift; sourceTree = "<group>"; };
 		9888A3402BED46AD0086DAEF /* WorkoutTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9888A3432BED46AD0086DAEF /* WorkoutTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTrackerApp.swift; sourceTree = "<group>"; };
 		9888A3452BED46AD0086DAEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9888A3472BED46AE0086DAEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9888A34A2BED46AE0086DAEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9888A3512BED47350086DAEF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9888A3532BED49000086DAEF /* MainListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListRow.swift; sourceTree = "<group>"; };
+		9888A3552BED54B00086DAEF /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		9888A3582BED5DC30086DAEF /* WorkoutList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutList.swift; sourceTree = "<group>"; };
+		9888A35A2BED5DD40086DAEF /* WorkoutDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				9888A3432BED46AD0086DAEF /* WorkoutTrackerApp.swift */,
 				9888A3452BED46AD0086DAEF /* ContentView.swift */,
+				9888A3512BED47350086DAEF /* HomeView.swift */,
+				9888A3532BED49000086DAEF /* MainListRow.swift */,
+				9888A3582BED5DC30086DAEF /* WorkoutList.swift */,
+				980B860E2BF144D500FF4B0B /* WorkoutListRow.swift */,
+				9888A35A2BED5DD40086DAEF /* WorkoutDetail.swift */,
+				9888A3572BED56780086DAEF /* Model */,
 				9888A3472BED46AE0086DAEF /* Assets.xcassets */,
 				9888A3492BED46AE0086DAEF /* Preview Content */,
 			);
@@ -65,6 +83,14 @@
 				9888A34A2BED46AE0086DAEF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9888A3572BED56780086DAEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9888A3552BED54B00086DAEF /* Data.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +163,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9888A35B2BED5DD40086DAEF /* WorkoutDetail.swift in Sources */,
+				9888A3522BED47350086DAEF /* HomeView.swift in Sources */,
+				9888A3562BED54B00086DAEF /* Data.swift in Sources */,
+				9888A3542BED49000086DAEF /* MainListRow.swift in Sources */,
+				9888A3592BED5DC30086DAEF /* WorkoutList.swift in Sources */,
 				9888A3462BED46AD0086DAEF /* ContentView.swift in Sources */,
+				980B860F2BF144D500FF4B0B /* WorkoutListRow.swift in Sources */,
 				9888A3442BED46AD0086DAEF /* WorkoutTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +307,7 @@
 				DEVELOPMENT_TEAM = 3BJT5DLG7B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Workout;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +337,7 @@
 				DEVELOPMENT_TEAM = 3BJT5DLG7B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Workout;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
