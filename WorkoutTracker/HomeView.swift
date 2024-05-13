@@ -25,7 +25,6 @@ struct HomeView: View {
                     NavigationLink(destination: WorkoutList(workout: workout)) {
                         MainListRow(workout: workout)
                     }
-                    
                 }
             }.navigationTitle("Training Plan")
         }
